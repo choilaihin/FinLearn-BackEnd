@@ -14,6 +14,6 @@ app.use(user.router);
 app.use(transaction.router);
 app.use(course.router);
 
-app.listen(3002, () => {
-  console.log("running on port 3002");
+app.listen(8080, () => {
+  console.log("running on port 8080");
 });
